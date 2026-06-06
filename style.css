@@ -1,0 +1,50 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Nature Colors */
+.bg-nature-green { background-color: #2D4F1E; }
+.text-nature-green { color: #2D4F1E; }
+.bg-lake-blue { background-color: #1E3A5F; }
+.text-lake-blue { color: #1E3A5F; }
+
+/* Hero Styles */
+.hero-gradient {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+}
+
+/* Gallery Styles */
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #2D4F1E;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1a3012;
+}
+
+/* Section Spacing */
+section {
+    min-height: auto;
+}
+
+/* Navigation Link Active State */
+.nav-link-active {
+    color: #bbf7d0 !important; /* Tailwind green-200 */
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Lake In Tree | Premium Lakeside Stay in Bhimtal</title>
+    <meta name="description" content="Experience peaceful, nature-focused luxury at Hotel Lake In Tree, Bhimtal. Enjoy stunning lake views, cozy rooms, and the beauty of Uttarakhand.">
+    <meta name="keywords" content="Bhimtal hotel, lake view hotel, Uttarakhand stay, Hotel Lake In Tree, luxury stay Bhimtal">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4" id="main-nav">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-white font-serif logo-text">Lake In Tree</a>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-8 items-center nav-links">
+                <a href="#home" class="text-white hover:text-green-200 transition">Home</a>
+                <a href="#about" class="text-white hover:text-green-200 transition">About</a>
+                <a href="#rooms" class="text-white hover:text-green-200 transition">Rooms</a>
+                <a href="#gallery" class="text-white hover:text-green-200 transition">Gallery</a>
+                <a href="#amenities" class="text-white hover:text-green-200 transition">Amenities</a>
+                <a href="#explore" class="text-white hover:text-green-200 transition">Explore</a>
+                <a href="#reviews" class="text-white hover:text-green-200 transition">Reviews</a>
+                <a href="#contact" class="bg-white text-nature-green px-6 py-2 rounded-full font-semibold hover:bg-green-50 transition btn-book">Book Now</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="md:hidden text-white" id="menu-btn">
+                <i data-lucide="menu" class="w-8 h-8"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="hidden absolute top-0 left-0 w-full h-screen bg-nature-green text-white flex flex-col items-center justify-center space-y-8 text-2xl" id="mobile-menu">
+            <button class="absolute top-6 right-6" id="close-btn">
+                <i data-lucide="x" class="w-8 h-8"></i>
+            </button>
+            <a href="#home" class="hover:text-green-200">Home</a>
+            <a href="#about" class="hover:text-green-200">About</a>
+            <a href="#rooms" class="hover:text-green-200">Rooms</a>
+            <a href="#gallery" class="hover:text-green-200">Gallery</a>
+            <a href="#amenities" class="hover:text-green-200">Amenities</a>
+            <a href="#explore" class="hover:text-green-200">Explore</a>
+            <a href="#reviews" class="hover:text-green-200">Reviews</a>
+            <a href="#contact" class="bg-white text-nature-green px-8 py-3 rounded-full font-semibold">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Sections Wrapper -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2070" alt="Bhimtal Lake View" class="w-full h-full object-cover">
+                <div class="absolute inset-0 hero-gradient"></div>
+            </div>
+            <div class="container mx-auto px-6 relative z-10 text-center text-white" data-aos="fade-up">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">Stay Above the Lake, <br> Close to Nature</h1>
+                <p class="text-xl md:text-2xl mb-10 max-w-2xl mx-auto font-light">Experience the serenity of Bhimtal at Hotel Lake In Tree – where luxury meets the peaceful whispers of the mountains.</p>
+                <div class="flex flex-col md:flex-row justify-center gap-4">
+                    <a href="#contact" class="bg-white text-nature-green px-10 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition shadow-lg">Check Availability</a>
+                    <a href="#rooms" class="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-nature-green transition">View Rooms</a>
+                </div>
+            </div>
+            <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+                <i data-lucide="chevron-down" class="text-white w-8 h-8"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Our Story</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">A Peaceful Sanctuary Above the Clouds</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div data-aos="fade-right">
+                        <p class="text-gray-600 mb-6 leading-relaxed text-lg">Founded with a vision to provide a tranquil escape from the bustling city life, Hotel Lake In Tree is more than just a place to stay. It is an experience designed to reconnect you with nature.</p>
+                        <p class="text-gray-600 mb-8 leading-relaxed text-lg">Located on the serene June Estate Road, our property overlooks the majestic Bhimtal Lake, offering panoramic views that change with every hour of the day.</p>
+                        <div class="grid grid-cols-2 gap-8">
+                            <div><h4 class="text-3xl font-bold text-nature-green mb-2">4.8</h4><p class="text-gray-500 uppercase text-sm tracking-widest">Guest Rating</p></div>
+                            <div><h4 class="text-3xl font-bold text-nature-green mb-2">24/7</h4><p class="text-gray-500 uppercase text-sm tracking-widest">Service</p></div>
+                        </div>
+                    </div>
+                    <div class="relative" data-aos="fade-left">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070" alt="Hotel Interior" class="rounded-2xl shadow-2xl w-full h-[500px] object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Rooms & Suites</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">Experience Ultimate Comfort</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="space-y-24">
+                    <!-- Room 1 -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up">
+                        <div class="order-2 md:order-1">
+                            <span class="text-nature-green font-semibold uppercase tracking-widest text-sm">Best Value</span>
+                            <h2 class="text-3xl font-bold mt-2 mb-6">Deluxe Lake View Room</h2>
+                            <p class="text-gray-600 mb-8 text-lg">Featuring a private balcony with direct views of the Bhimtal Lake, these rooms blend modern amenities with rustic charm.</p>
+                            <div class="flex items-center justify-between border-t pt-8">
+                                <div><div class="text-3xl font-bold text-nature-green">₹3,499 <span class="text-sm font-normal text-gray-500">/ night</span></div></div>
+                                <a href="#contact" class="bg-nature-green text-white px-8 py-3 rounded-full font-bold hover:bg-opacity-90 transition">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="order-1 md:order-2">
+                            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1974" alt="Deluxe Room" class="rounded-2xl shadow-xl w-full h-[400px] object-cover">
+                        </div>
+                    </div>
+                    <!-- More rooms can be added here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Visual Gallery</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">A Glimpse of Paradise</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="gallery-item relative overflow-hidden rounded-2xl cursor-pointer" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2070" class="w-full h-80 object-cover transition duration-500">
+                    </div>
+                    <div class="gallery-item relative overflow-hidden rounded-2xl cursor-pointer" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=2070" class="w-full h-80 object-cover transition duration-500">
+                    </div>
+                    <div class="gallery-item relative overflow-hidden rounded-2xl cursor-pointer" onclick="openLightbox(this)">
+                        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=2070" class="w-full h-80 object-cover transition duration-500">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Amenities Section -->
+        <section id="amenities" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Amenities</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">World-Class Services</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="waves"></i></div><div><h3 class="font-bold mb-2">Lake View Balconies</h3><p class="text-gray-600">Private balconies with stunning views.</p></div></div>
+                    <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="wifi"></i></div><div><h3 class="font-bold mb-2">Free Wi-Fi</h3><p class="text-gray-600">High-speed internet throughout.</p></div></div>
+                    <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="parking-circle"></i></div><div><h3 class="font-bold mb-2">Free Parking</h3><p class="text-gray-600">Secure parking for all guests.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore Section -->
+        <section id="explore" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Explore</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">Nearby Attractions</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2070" class="w-full h-64 object-cover">
+                        <div class="p-8"><h3 class="text-2xl font-bold mb-4">Bhimtal Lake</h3><p class="text-gray-600 mb-6">Just a 5-minute walk from our property.</p><span class="inline-block bg-green-100 text-nature-green px-4 py-1 rounded-full text-sm font-semibold">500m Away</span></div>
+                    </div>
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070" class="w-full h-64 object-cover">
+                        <div class="p-8"><h3 class="text-2xl font-bold mb-4">Nainital</h3><p class="text-gray-600 mb-6">Famous lake city, only 45-minute drive.</p><span class="inline-block bg-green-100 text-nature-green px-4 py-1 rounded-full text-sm font-semibold">22km Away</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Reviews</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">Guest Experiences</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="flex text-yellow-400 mb-4"><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i></div><p class="italic mb-6">"Absolutely stunning views! The tree house cottage is a must-try."</p><h4 class="font-bold">Rahul Amit</h4></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="flex text-yellow-400 mb-4"><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i></div><p class="italic mb-6">"Perfect place for a peaceful getaway. Morning lake view is unforgettable."</p><h4 class="font-bold">Sneha Kapoor</h4></div>
+                    <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="flex text-yellow-400 mb-4"><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i><i data-lucide="star" class="fill-current"></i></div><p class="italic mb-6">"Great hospitality. Away from the crowd but close to the lake."</p><h4 class="font-bold">Vikram Patel</h4></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <span class="text-nature-green font-semibold uppercase tracking-widest">Contact Us</span>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-4 mb-6">Get In Touch</h2>
+                    <div class="w-24 h-1 bg-nature-green mx-auto"></div>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                    <div class="bg-gray-50 p-10 rounded-3xl shadow-sm">
+                        <h2 class="text-3xl font-bold mb-8">Send us a message</h2>
+                        <form action="https://formspree.io/f/mvzlzeev" method="post" class="space-y-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="number" name="number" placeholder="Your number" required>
+                                <input type="email" name="email" placeholder="Email Address" required>
+                                <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <textarea rows="5" placeholder="How can we help you?" class="w-full border-gray-200 border p-4 rounded-xl outline-none"></textarea>
+                            <button type="submit" class="w-full bg-nature-green text-white font-bold py-4 rounded-xl hover:bg-opacity-90 transition">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="map-pin"></i></div><div><h4 class="font-bold">Address</h4><p class="text-gray-600">Mountain Clube, June Estate Road, Bhimtal</p></div></div>
+                        <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="phone"></i></div><div><h4 class="font-bold">Phone</h4><p class="text-gray-600">+91 12345 67890</p></div></div>
+                        <div class="flex items-start space-x-6"><div class="bg-green-50 p-4 rounded-xl text-nature-green"><i data-lucide="mail"></i></div><div><h4 class="font-bold">Email</h4><p class="text-gray-600">info@hotellakeintree.com</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h4 class="text-white text-2xl font-serif font-bold mb-6">Lake In Tree</h4>
+            <p class="mb-8 max-w-lg mx-auto">A premium lakeside property in Bhimtal, Uttarakhand, offering a peaceful and luxury stay close to nature.</p>
+            <div class="flex justify-center space-x-6 mb-12">
+                <a href="#" class="hover:text-white transition"><i data-lucide="facebook"></i></a>
+                <a href="#" class="hover:text-white transition"><i data-lucide="instagram"></i></a>
+                <a href="#" class="hover:text-white transition"><i data-lucide="twitter"></i></a>
+            </div>
+            <p>&copy; 2026 Hotel Lake In Tree. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/91XXXXXXXXXX" class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 z-50" target="_blank">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-95 z-[100] hidden flex items-center justify-center p-4" onclick="closeLightbox()">
+        <button class="absolute top-6 right-6 text-white"><i data-lucide="x" class="w-10 h-10"></i></button>
+        <img id="lightbox-img" src="" class="max-w-full max-h-full rounded-lg shadow-2xl">
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
